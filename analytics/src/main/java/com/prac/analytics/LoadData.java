@@ -23,7 +23,7 @@ public class LoadData implements CommandLineRunner {
     public void run(String... args) throws Exception {
         List<Player> allPlayers = loadPlayers();
 
-        List<Player> allLeftHandBatsmen = filterPlayers(allPlayers, LEFT_HAND_BAT, "India");
+        List<Player> allLeftHandBatsmen = filterPlayers(allPlayers, LEFT_HAND_BAT, "England");
         display(allLeftHandBatsmen);
     }
 
